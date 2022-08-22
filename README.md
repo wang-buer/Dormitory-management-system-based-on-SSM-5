@@ -1,6 +1,7 @@
-# 基于SSM的宿舍管理系统5
+# 基于SSM的宿舍管理系统
 
-#### 介绍
+## 1、项目介绍
+
 基于SSM的宿舍管理系统5拥有三种角色，分别为管理员、宿管、学生，具体功能如下：
 
 - 管理员：楼层管理、宿舍管理、员工管理、物品进出登记、来访人员登记、学生管理、系统管理、用户管理
@@ -9,35 +10,93 @@
 
 - 学生：个人信息查看、密码修改
 
-#### 软件架构
-软件架构说明
 
 
-#### 安装教程
+## 2、项目技术
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+后端框架：SSM（Spring、SpringMVC、Mybatis）
 
-#### 使用说明
+前端框架：easyui、jsp、css、JavaScript、JQuery
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 3、开发环境
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- JAVA版本：JDK1.8，其它版本理论上可以
+- IDE类型：IDEA、Eclipse、Myeclipse都可以。推荐IDEA与Eclipse
+- tomcat版本：Tomcat 7.x、8.x、9.x、10.x版本均可
+- 数据库版本：MySql 5.x
+- maven版本：无限制
+- 硬件环境：Windows 或者 Mac OS
 
 
-#### 特技
+## 4、功能介绍
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 4.1 登录
+
+![登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515002955.jpg)
+
+三种用户均可通过登录界面登录至系统，需要输入正确的验证码和选择正确的用户类型
+
+### 4.2 管理员模块
+
+![管理员-楼层管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003032.jpg)
+
+![管理员-宿舍管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003037.jpg)
+
+![管理员-物品进出管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003040.jpg)
+
+![管理员-学生管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003041.jpg)
+
+![管理员-用户管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003043.jpg)
+
+![管理员-员工管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003048.jpg)
+
+- 楼层管理：管理员可以根据楼层号查询楼层信息，还可查看、增加、编辑和停用、启用楼层
+
+- 宿舍管理：管理员可以根据宿舍号、容量、所在楼层查询宿舍信息，还可查看、增加、编辑和停用、启用宿舍
+
+- 员工管理：管理员可以根据员工姓名、所在楼层查询员工，还可查看、增加、编辑和停用、启用宿舍员工
+
+- 物品进出登记：管理员可以根据物品名称查询物品登记信息，还可添加记录、删除和修改记录
+
+- 来访人员登记：管理员可以根据来访人和被访人筛选来访人员登记记录，还可添加和删除记录
+
+- 学生管理：管理员可以根据学号、姓名、班级、宿舍号筛选学生，还可查看、修改、添加、删除学生
+
+- 用户管理：管理员可以根据用户名筛选学生，还可查看、修改、添加、删除用户
+
+
+### 4.3 宿管模块
+
+![宿管-来访人员管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003523.jpg)
+
+![宿管-宿舍管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003526.jpg)
+
+![宿管-物品进出登记](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003529.jpg)
+
+![宿管-学生管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003531.jpg)
+
+- 宿舍管理：同上
+
+- 学生管理：同上
+
+- 物品进出登记： 宿管可以根据物品名称查询物品登记信息，还可添加记录、删除和修改记录
+
+- 来访人员登记： 宿管可以根据来访人和被访人筛选来访人员登记记录，还可添加和删除记录
+
+
+### 4.4 学生模块
+
+![学生界面](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003607.jpg)
+
+学生可以查看个人信息、密码修改
+
+## 5、获取方式
+
+扫描下方，回复 “**宿舍5** ” ，获取完整版的项目代码。
+
+![image-20220509000010316](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
+
+
+
+
