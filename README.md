@@ -1,4 +1,4 @@
-# 基于SSM的宿舍管理系统
+# 基于SSM的宿舍管理系统5
 
 ## 1、项目介绍
 
@@ -10,6 +10,11 @@
 
 - 学生：个人信息查看、密码修改
 
+## 获取方式
+
+下方扫一扫关注后，后台回复关键词：**宿舍**，查看导入教程视频、sql脚本和源码等
+
+ ![](https://www.codeshop.fun/Typora-Images/202205281253739.png)
 
 
 ## 2、项目技术
@@ -32,23 +37,23 @@
 
 ### 4.1 登录
 
-![登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515002955.jpg)
+![登录](https://www.codeshop.fun/Typora-Images/20220515002955.jpg)
 
 三种用户均可通过登录界面登录至系统，需要输入正确的验证码和选择正确的用户类型
 
 ### 4.2 管理员模块
 
-![管理员-楼层管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003032.jpg)
+![管理员-楼层管理](https://www.codeshop.fun/Typora-Images/20220515003032.jpg)
 
-![管理员-宿舍管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003037.jpg)
+![管理员-宿舍管理](https://www.codeshop.fun/Typora-Images/20220515003037.jpg)
 
-![管理员-物品进出管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003040.jpg)
+![管理员-物品进出管理](https://www.codeshop.fun/Typora-Images/20220515003040.jpg)
 
-![管理员-学生管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003041.jpg)
+![管理员-学生管理](https://www.codeshop.fun/Typora-Images/20220515003041.jpg)
 
-![管理员-用户管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003043.jpg)
+![管理员-用户管理](https://www.codeshop.fun/Typora-Images/20220515003043.jpg)
 
-![管理员-员工管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003048.jpg)
+![管理员-员工管理](https://www.codeshop.fun/Typora-Images/20220515003048.jpg)
 
 - 楼层管理：管理员可以根据楼层号查询楼层信息，还可查看、增加、编辑和停用、启用楼层
 
@@ -67,13 +72,13 @@
 
 ### 4.3 宿管模块
 
-![宿管-来访人员管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003523.jpg)
+![宿管-来访人员管理](https://www.codeshop.fun/Typora-Images/20220515003523.jpg)
 
-![宿管-宿舍管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003526.jpg)
+![宿管-宿舍管理](https://www.codeshop.fun/Typora-Images/20220515003526.jpg)
 
-![宿管-物品进出登记](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003529.jpg)
+![宿管-物品进出登记](https://www.codeshop.fun/Typora-Images/20220515003529.jpg)
 
-![宿管-学生管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003531.jpg)
+![宿管-学生管理](https://www.codeshop.fun/Typora-Images/20220515003531.jpg)
 
 - 宿舍管理：同上
 
@@ -86,17 +91,7 @@
 
 ### 4.4 学生模块
 
-![学生界面](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515003607.jpg)
+![学生界面](https://www.codeshop.fun/Typora-Images/20220515003607.jpg)
 
 学生可以查看个人信息、密码修改
-
-## 5、获取方式
-
-扫描下方，回复 “**宿舍5** ” ，获取完整版的项目代码。
-
-![image-20220509000010316](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
-
-
-
-
 
